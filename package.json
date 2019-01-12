@@ -1,0 +1,25 @@
+{
+  "name": "reset-image-orientation",
+  "version": "1.0.0",
+  "description": "Reset uploaded image orientation based on EXIF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyvfyv/reset-image-orientation.git"
+  },
+  "keywords": [
+    "img",
+    "exif",
+    "orientation",
+    "browser"
+  ],
+  "author": "Oleg Petrov <fyvfyv@fyvfyv.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fyvfyv/reset-image-orientation/issues"
+  },
+  "homepage": "https://github.com/fyvfyv/reset-image-orientation#readme"
+}
