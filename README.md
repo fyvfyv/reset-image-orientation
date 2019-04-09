@@ -3,17 +3,45 @@ Reset uploaded image orientation based on EXIF
 
 ## Installation
 
-```bash
-$ npm install reset-image-orientation
+```sh
+npm install reset-image-orientation
 ```
 
-## API
+## Javascript example
 
-```js
-const resetOrientation = require('reset-image-orientation');
+```javascript
+var resetOrientation = require('reset-image-orientation');
 
-resetOrientation(file, result, (base64) => {
-    //...
+var input = document.querySelector('input[type="file"]');
+var img = document.querySelector('img');
+
+input.addEventListener('change', function(e) {
+    e.preventDefault();
+
+    var file = e.target.files[0];
+
+    resetOrientation.default()(file, function(base64) => {
+        img.src = base64;
+    });
+});
+```
+
+## Typescript example
+
+```typescript
+import resetOrientation from 'reset-image-orintation';
+
+const input = document.querySelector('input[type="file"]');
+const img = document.querySelector('img');
+
+input.addEventListener('change', function(e: Event) {
+    e.preventDefault();
+
+    var file = e.target.files[0];
+
+    resetOrientation(file, function(base64: string) => {
+        img.src = base64;
+    });
 });
 ```
 

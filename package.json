@@ -2,8 +2,10 @@
   "name": "reset-image-orientation",
   "version": "1.0.0",
   "description": "Reset uploaded image orientation based on EXIF",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,6 +15,8 @@
   "keywords": [
     "img",
     "exif",
+    "reset",
+    "base64",
     "orientation",
     "browser"
   ],
@@ -21,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/fyvfyv/reset-image-orientation/issues"
   },
-  "homepage": "https://github.com/fyvfyv/reset-image-orientation#readme"
+  "homepage": "https://github.com/fyvfyv/reset-image-orientation#readme",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
 }
