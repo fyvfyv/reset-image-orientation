@@ -1,6 +1,6 @@
 {
   "name": "reset-image-orientation",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Reset uploaded image orientation based on EXIF",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
