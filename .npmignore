@@ -1,1 +1,6 @@
-lib/
+.github/
+index.ts/
+tsconfig.json
+LICENSE
+README.md
+
