@@ -4,7 +4,7 @@
  * @param {File} file
  * @param {Function} cb — receive a code of orientation
  */
-const getOrientation = (file: File, cb: (orintationCode: number) => void) => {
+const getOrientation = (file: File, cb: (orientationCode: number) => void) => {
     const reader = new FileReader()
 
     reader.onload = () => {
