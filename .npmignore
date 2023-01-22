@@ -1,4 +1,5 @@
 .github/
+.idea/
 index.ts/
 tsconfig.json
 LICENSE
