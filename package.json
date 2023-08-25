@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/fyvfyv/reset-image-orientation#readme",
   "devDependencies": {
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }
