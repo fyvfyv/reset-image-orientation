@@ -29,7 +29,7 @@ input.addEventListener('change', function(e) {
 ## Typescript example
 
 ```typescript
-import resetOrientation from 'reset-image-orintation';
+import resetOrientation from 'reset-image-orientation';
 
 const input = document.querySelector('input[type="file"]');
 const img = document.querySelector('img');
